@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//Servicios
+import { HeroesService } from './servicios/heroes.service';
+
 // Rutas
 import { APP_ROUTING } from './app.routes';
 
@@ -14,7 +17,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 @NgModule({
 	declarations: [ AppComponent, HomeComponent, NavbarComponent, AboutComponent, HeroesComponent ],
 	imports: [ BrowserModule, APP_ROUTING ],
-	providers: [],
+	providers: [ HeroesService ],
 	bootstrap: [ AppComponent ]
 })
 export class AppModule {}
