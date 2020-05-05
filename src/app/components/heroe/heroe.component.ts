@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HeroesService } from '../../servicios/heroes.service';
 
@@ -7,7 +7,7 @@ import { HeroesService } from '../../servicios/heroes.service';
 	templateUrl: './heroe.component.html',
 	styleUrls: [ './heroe.component.css' ]
 })
-export class HeroeComponent implements OnInit {
+export class HeroeComponent {
 	heroe: any = {};
 
 	constructor(private activatedRoute: ActivatedRoute, private _heroesService: HeroesService) {
