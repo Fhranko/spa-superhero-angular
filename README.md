@@ -8,6 +8,8 @@ App web desarrollada con Angular para la presentacion de diferentes heroes de DC
 2. Escribe `ng serve` para levantar un servidor local con Angular.
 3. Navega al `http://localhost:4200/`. La aplicacion automáticamente se recargará con los cambios que se hagan.
 
+[CLICK PARA VER PROYECTO EN VIVO](https://fhranko.github.io/spa-superhero-angular)
+
 ![](src/assets/img/screencapture/screencapture-home.png)
 ![](src/assets/img/screencapture/screencapture-heroes.png)
 ![](src/assets/img/screencapture/screencapture-heroe.png)
